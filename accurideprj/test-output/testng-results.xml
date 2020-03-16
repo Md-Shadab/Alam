@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-16T10:49:09Z" name="AccurideV1" finished-at="2020-03-16T10:52:04Z" duration-ms="174360">
+    <groups>
+    </groups>
+    <test started-at="2020-03-16T10:49:09Z" name="Accurides smoke Test" finished-at="2020-03-16T10:52:04Z" duration-ms="174360">
+      <class name="com.accuride.testCases.TC_companysignup">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.accuride.testCases.TC_companysignup@358ee631]" started-at="2020-03-16T10:49:10Z" name="setup" finished-at="2020-03-16T10:49:16Z" duration-ms="6001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="companysignupaccount()[pri:0, instance:com.accuride.testCases.TC_companysignup@358ee631]" started-at="2020-03-16T10:49:16Z" name="companysignupaccount" finished-at="2020-03-16T10:52:03Z" duration-ms="167488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- companysignupaccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.accuride.testCases.TC_companysignup@358ee631]" started-at="2020-03-16T10:52:03Z" name="tearDown" finished-at="2020-03-16T10:52:04Z" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.accuride.testCases.TC_companysignup -->
+    </test> <!-- Accurides smoke Test -->
+  </suite> <!-- AccurideV1 -->
+</testng-results>

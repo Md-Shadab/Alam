@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AccurideV1]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.accuride.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Accurides smoke Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.accuride.testCases.TC_companysignup">
+        <methods>
+          <include name="companysignupaccount"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.accuride.testCases.TC_companysignup -->
+    </classes>
+  </test> <!-- Accurides smoke Test(failed) -->
+</suite> <!-- Failed suite [AccurideV1] -->

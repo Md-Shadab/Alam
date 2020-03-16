@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="AccurideV1">
+
+	<listeners>
+		<listener class-name="com.accuride.utilities.Reporting" />
+	</listeners>
+
+
+	<test name="Accurides smoke Test">
+		<parameter name="browser" value="chrome" />
+		
+		<classes>
+			<class name="com.accuride.testCases.TC_companysignup"/>
+		<!-- <class name="com.accuride.testCases.Checklogin"/> 
+		<class name="com.accuride.testCases.TC_headersection" />
+		<class name="com.accuride.testCases.TC_menusection" />
+	 	 <class name="com.accuride.testCases.TC_NewSignup" />
+	 <class name="com.accuride.testCases.TC_Loginpage"/> 
+	 <class name="com.accuride.testCases.TC_searchproduct"/>-->
+			
+
+		</classes>
+
+	</test>
+
+</suite>
