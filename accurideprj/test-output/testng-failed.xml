@@ -7,13 +7,13 @@
   <test thread-count="5" name="Accurides smoke Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.accuride.testCases.TC_companysignup">
+      <class name="com.accuride.testCases.TC_Loginpage">
         <methods>
-          <include name="companysignupaccount"/>
+          <include name="login" invocation-numbers="1 2 3"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.accuride.testCases.TC_companysignup -->
+      </class> <!-- com.accuride.testCases.TC_Loginpage -->
     </classes>
   </test> <!-- Accurides smoke Test(failed) -->
 </suite> <!-- Failed suite [AccurideV1] -->

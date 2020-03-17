@@ -50,17 +50,20 @@ public class Checklogin extends BaseClass {
 		
 		if(usernametext.getText().equalsIgnoreCase("shadab alam")) {
 			
-			System.out.println("username is verified");
+			logger.info("username is verified");
 		}
 		else {
-			System.out.println("username is failed");
+			logger.info("username is failed");
 		}
 	}
 
-	public void imagetake() {
+	/*public void imagetake() {
 		
 		WebElement logoimage=driver.findElement(By.xpath("//a[@class='logo']/img"));
-	}
+		
+		
+		File file = new File(OUTPUTTYPE,logoimage);
+	}*/
 	
 	
 }
