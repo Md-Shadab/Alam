@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-03-18T10:34:14Z" name="AccurideV1" finished-at="2020-03-18T10:34:31Z" duration-ms="17647">
+  <suite started-at="2020-03-18T16:17:23Z" name="AccurideV1" finished-at="2020-03-18T16:17:53Z" duration-ms="29824">
     <groups>
     </groups>
-    <test started-at="2020-03-18T10:34:14Z" name="Accurides smoke Test" finished-at="2020-03-18T10:34:31Z" duration-ms="17647">
+    <test started-at="2020-03-18T16:17:23Z" name="Accurides smoke Test" finished-at="2020-03-18T16:17:53Z" duration-ms="29824">
       <class name="com.accuride.testCases.TC_footersection">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.accuride.testCases.TC_footersection@233fe9b6]" started-at="2020-03-18T10:34:14Z" name="setup" finished-at="2020-03-18T10:34:22Z" duration-ms="8165" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.accuride.testCases.TC_footersection@28975c28]" started-at="2020-03-18T16:17:23Z" name="setup" finished-at="2020-03-18T16:17:38Z" duration-ms="14716" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="footersection()[pri:0, instance:com.accuride.testCases.TC_footersection@233fe9b6]" started-at="2020-03-18T10:34:22Z" name="footersection" finished-at="2020-03-18T10:34:22Z" duration-ms="315" status="PASS">
+        <test-method signature="footersection()[pri:0, instance:com.accuride.testCases.TC_footersection@28975c28]" started-at="2020-03-18T16:17:38Z" name="footersection" finished-at="2020-03-18T16:17:39Z" duration-ms="517" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footersection -->
-        <test-method signature="footersection_check()[pri:0, instance:com.accuride.testCases.TC_footersection@233fe9b6]" started-at="2020-03-18T10:34:22Z" name="footersection_check" finished-at="2020-03-18T10:34:31Z" duration-ms="8336" status="PASS">
+        <test-method signature="footersection_check()[pri:0, instance:com.accuride.testCases.TC_footersection@28975c28]" started-at="2020-03-18T16:17:39Z" name="footersection_check" finished-at="2020-03-18T16:17:52Z" duration-ms="13042" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footersection_check -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.accuride.testCases.TC_footersection@233fe9b6]" started-at="2020-03-18T10:34:31Z" name="tearDown" finished-at="2020-03-18T10:34:31Z" duration-ms="679" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.accuride.testCases.TC_footersection@28975c28]" started-at="2020-03-18T16:17:52Z" name="tearDown" finished-at="2020-03-18T16:17:53Z" duration-ms="1103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
