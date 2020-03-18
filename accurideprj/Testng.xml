@@ -12,13 +12,14 @@
 		<parameter name="browser" value="chrome" />
 		
 		<classes>
-		  	<class name="com.accuride.testCases.TC_companysignup"/>
+		<class name="com.accuride.testCases.TC_footersection"/>
+		<!--<class name="com.accuride.testCases.TC_companysignup"/>
 		 <class name="com.accuride.testCases.Checklogin"/> 
 		<class name="com.accuride.testCases.TC_headersection" />
 		<class name="com.accuride.testCases.TC_menusection" />
 	 	 <class name="com.accuride.testCases.TC_NewSignup" />
 	 <class name="com.accuride.testCases.TC_Loginpage"/> 
-	 <class name="com.accuride.testCases.TC_searchproduct"/>
+	 <class name="com.accuride.testCases.TC_searchproduct"/> -->
 			
 
 		</classes>

@@ -42,7 +42,7 @@ public class BaseClass {
 		@BeforeClass
 		public void setup(String br) throws IOException
 		{			
-			logger = Logger.getLogger("ebanking");
+			
 			PropertyConfigurator.configure("Log4j.properties");
 			
 			if(br.equals("chrome"))
@@ -64,14 +64,15 @@ public class BaseClass {
 			driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 			driver.manage().window().maximize();
 			driver.get(baseURL);
-			if(driver.getTitle().equals("Global Manufacturer of Premium Ball-Bearing Drawer Slides | Accuride International"))
+			/*
+			if(driver.getTitle().equalsIgnoreCase("Global Manufacturer of Premium Ball-Bearing Drawer Slides | Accuride International"))
 			{
 				logger.info("URL is opened successfully");
 			}
 			else {
 				captureScreen(driver,"setup");
 				logger.info("URL is failed to open");
-			}
+			}*/
 		}
 		
 		@AfterClass

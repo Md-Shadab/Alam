@@ -3,7 +3,6 @@ package com.accuride.pageObjects;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebDriver.Window;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.CacheLookup;
@@ -17,7 +16,6 @@ public class SearchproductObject {
 	
 	
 	public SearchproductObject(WebDriver rdiver){
-		
 		
 		ldriver=rdiver;
 		PageFactory.initElements(rdiver, this);

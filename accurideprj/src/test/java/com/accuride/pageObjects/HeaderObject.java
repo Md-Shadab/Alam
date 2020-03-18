@@ -14,12 +14,12 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
-public class HomepageObject {
+public class HeaderObject {
 	
 	WebDriver ldriver;
 	
 	
-	public HomepageObject(WebDriver rdriver){
+	public HeaderObject(WebDriver rdriver){
 		
 		ldriver=rdriver;
 		PageFactory.initElements(rdriver, this);
@@ -67,9 +67,7 @@ public class HomepageObject {
 	@CacheLookup
 	WebElement  dismissalert;
 	
-	@FindBy(xpath="//ul[@class='footer links']/li/a")
-	@CacheLookup
-	List<WebElement> footer;
+	
 	
 	
 	
@@ -94,17 +92,7 @@ public class HomepageObject {
 	}
 
 	
-	public void verify_footer() {
-		
-		
-		int z= footer.size();
-		//System.out.println(z);
-		for(int i=0;i<z;i++) {
-			
-			System.out.println(footer.get(i).getText());
-		}
-		
-	}
+	
 	
 		public void loginSignup() {
 			

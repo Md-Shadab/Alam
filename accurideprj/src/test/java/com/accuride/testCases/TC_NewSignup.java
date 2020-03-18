@@ -2,7 +2,7 @@ package com.accuride.testCases;
 
 import org.testng.annotations.Test;
 
-import com.accuride.pageObjects.HomepageObject;
+import com.accuride.pageObjects.HeaderObject;
 import com.accuride.pageObjects.SignupPageObject;
 import com.aventstack.extentreports.ExtentTest;
 
@@ -15,7 +15,7 @@ public class TC_NewSignup extends BaseClass {
 	@Test
 	public void signup() throws Exception {
 		
-		HomepageObject hp = new HomepageObject(driver);
+		HeaderObject hp = new HeaderObject(driver);
 		SignupPageObject sp= new SignupPageObject(driver);
 		
 		//ExtentTest test= extent.createTest("signup");

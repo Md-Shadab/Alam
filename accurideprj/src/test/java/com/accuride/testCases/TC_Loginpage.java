@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.accuride.pageObjects.HomepageObject;
+import com.accuride.pageObjects.HeaderObject;
 import com.accuride.pageObjects.LoginPageObject;
 import com.accuride.utilities.XLUtils;
 
@@ -19,7 +19,7 @@ public class TC_Loginpage extends BaseClass {
 	@Test(dataProvider="LoginData")
 	public void login(String email,String pwd) throws InterruptedException, IOException {
 		
-		HomepageObject hp = new HomepageObject(driver);
+		HeaderObject hp = new HeaderObject(driver);
 		LoginPageObject lp = new LoginPageObject(driver);
 		
 			hp.loginSignup();
