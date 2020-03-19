@@ -1,12 +1,13 @@
 package com.accuride.testCases;
 
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import com.accuride.pageObjects.FooterObject;
 
 public class TC_footersection extends BaseClass {
 
-	
+	@Ignore
 	@Test
 	public void footersection()
 	{
