@@ -23,7 +23,7 @@ public class TC_footersection extends BaseClass {
 		
 		FooterObject hp = new FooterObject(driver);
 		hp.click_footer();
-		System.out.println("every element of the footer is being verified over here");
+		logger.info("every element of the footer is being verified over here");
 		//logger.info("every element of the footer is being verified over here");
 	}
 	
